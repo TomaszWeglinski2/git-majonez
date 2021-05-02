@@ -1,3 +1,20 @@
+  177  130:tom         1050  6.1 29.2 3436580 294156 ?      Ssl  16:38   0:17 /usr/bin/gnome-shell
+  178  144:tom         1162  0.1  1.9 2609700 19712 ?       Sl   16:38   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+  179  168:tom         1368  1.5  7.3 1013844 74084 ?       Sl   16:38   0:03 /usr/bin/nautilus --gapplication-service
+  180  grep -n"/bin"processes.txt >>selected.txt
+  181  grep -n"/bin" processes.txt >>selected.txt
+  182  grep -n "/bin" processes.txt >>selected.txt
+  183  cat selected.txt
+  184  cat selected.txt 
+  185  cat processes.txt 
+  186  ls
+  187  man cat
+  188  cat processes.txt 
+  189  pwd
+  190  ls
+  191  cat processes.txt 
+  192  clear
+  193  cat processes.txt 
   194  ps aux > processes.txt
   195  cat processes.txt 
   196  wl --lines processes.txt 
@@ -98,3 +115,36 @@
   291  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
   292  git push -u origin main
   293  history|tail -100>history.txt
+  294  git status
+  295  git add history.txt 
+  296  git status
+  297  git commit -m"History added"
+  298  git push
+  299  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  300  git branch cs
+  301  git view
+  302  git show
+  303  git log
+  304  branch cs
+  305  git branch cs
+  306  checkout cs
+  307  checkout branch cs
+  308  git commit -m"initial commit"
+  309  git status
+  310  git checkout branch cs
+  311  git checkout cs
+  312  git status
+  313  git checkout master
+  314  git log
+  315  git checkout 0745645dc8d7635a293281dea517866c3391bb22
+  316  history|tail -150>history.txt
+  317  git status
+  318  git add history.txt 
+  319  git commit -m"History added"
+  320  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  321  git checkout master
+  322  history|tail -180>history.txt
+  323  cat history.txt
+  324  history|tail -160>history.txt
+  325  cat history.txt
+  326  history|tail -150>history.txt
