@@ -1,9 +1,3 @@
-  192  clear
-  193  cat processes.txt 
-  194  ps aux > processes.txt
-  195  cat processes.txt 
-  196  wl --lines processes.txt 
-  197  wc --lines processes.txt 
   198  wc --lines processes.txt << selected.txt 
   199  wc --lines processes.txt << selected.txt 
   200  wc --lines processes.txt << selected.txt 
@@ -178,3 +172,9 @@
   369  git push --help
   370  git push https://github.com/TomaszWeglinski2/git-checker.git
   371  history|tail -180>history.txt
+  372  git add history.txt 
+  373  git commit -m"History added"
+  374  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  375  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
+  376  git remote add origin https://github.com/TomaszWeglinski2/git-checker.git
+  377  history|tail -180>history.txt
