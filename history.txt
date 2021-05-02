@@ -1,3 +1,4 @@
+  192  clear
   193  cat processes.txt 
   194  ps aux > processes.txt
   195  cat processes.txt 
@@ -168,3 +169,12 @@
   360  git push origin main 
   361  git push -u origin main
   362  history|tail -170>history.txt
+  363  git add history.txt 
+  364  git commit -m"History added"
+  365  git remote push origin https://github.com/TomaszWeglinski2/git-majonez.git
+  366  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  367  git push
+  368  git push remote
+  369  git push --help
+  370  git push https://github.com/TomaszWeglinski2/git-checker.git
+  371  history|tail -180>history.txt
