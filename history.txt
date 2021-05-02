@@ -1,0 +1,80 @@
+  203  git status
+  204  ls
+  205  cd git-majonez/
+  206  ls
+  207  git status
+  208  git add .
+  209  git status
+  210  git rm main
+  211  git status
+  212  rm main
+  213  git status
+  214  ls
+  215  git add main.cpp 
+  216  git status
+  217  git commit -m"initial commit"
+  218  git status
+  219  git show
+  220  git status
+  221  git add main.cpp 
+  222  git status
+  223  git commit -m"Farewell changed"
+  224  git status
+  225  std::cout<< "Goodbye World";
+  226  return 0;
+  227  q
+  228  git status
+  229  ls
+  230  cd git-majonez/
+  231  ls
+  232  git status
+  233  git add main.cpp 
+  234  git status
+  235  git commit -m"Greetings"
+  236  git log
+  237  git push origin cs
+  238  git checkout master
+  239  git log
+  240  git diff cd..master
+  241  git diff cs..master
+  242  git status
+  243  git merge cs
+  244  git status
+  245  git add main.cpp 
+  246  git status
+  247  git commit main.cpp 
+  248  git commit 
+  249  git status
+  250  touch history.txt
+  251  git status
+  252  history >history.txt
+  253  cat history.txt 
+  254  history -35 >>history.txt
+  255  history|tail -35 >>history.txt
+  256  cat history.txt 
+  257  history|tail -5 >>history.txt
+  258  cat history.txt 
+  259  history|tail -40 >history.txt
+  260  cat history.txt 
+  261  history|tail -53 >history.txt
+  262  cat history.txt 
+  263  git init
+  264  git status
+  265  history|tail -56 >history.txt
+  266  touch main.txt
+  267  git status
+  268  rm main.txt
+  269  git status
+  270  history|tail -59 >history.txt
+  271  cat history.txt 
+  272  touch main.cpp
+  273  git status
+  274  ls
+  275  cat main.cpp
+  276  history|tail -60>history.txt
+  277  cat history.txt 
+  278  history|tail -80>history.txt
+  279  cat history.txt 
+  280  history|tail -80>history.txt
+  281  cat history.txt 
+  282  history|tail -80>history.txt
