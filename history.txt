@@ -1,3 +1,21 @@
+  177  130:tom         1050  6.1 29.2 3436580 294156 ?      Ssl  16:38   0:17 /usr/bin/gnome-shell
+  178  144:tom         1162  0.1  1.9 2609700 19712 ?       Sl   16:38   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+  179  168:tom         1368  1.5  7.3 1013844 74084 ?       Sl   16:38   0:03 /usr/bin/nautilus --gapplication-service
+  180  grep -n"/bin"processes.txt >>selected.txt
+  181  grep -n"/bin" processes.txt >>selected.txt
+  182  grep -n "/bin" processes.txt >>selected.txt
+  183  cat selected.txt
+  184  cat selected.txt 
+  185  cat processes.txt 
+  186  ls
+  187  man cat
+  188  cat processes.txt 
+  189  pwd
+  190  ls
+  191  cat processes.txt 
+  192  clear
+  193  cat processes.txt 
+  194  ps aux > processes.txt
   195  cat processes.txt 
   196  wl --lines processes.txt 
   197  wc --lines processes.txt 
@@ -130,6 +148,7 @@
   324  history|tail -160>history.txt
   325  cat history.txt
   326  history|tail -150>history.txt
+<<<<<<< HEAD
   327  git commit -m"History added"
   328  git add history.txt 
   329  git commit -m"History added"
@@ -148,3 +167,5 @@
   342  git checkout master
   343  git status
   344  history|tail -150>history.txt
+=======
+>>>>>>> 377d616c8d11d53ea5b02cdcebd5652a4e8f15c3
