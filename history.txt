@@ -1,3 +1,12 @@
+  194  ps aux > processes.txt
+  195  cat processes.txt 
+  196  wl --lines processes.txt 
+  197  wc --lines processes.txt 
+  198  wc --lines processes.txt << selected.txt 
+  199  wc --lines processes.txt << selected.txt 
+  200  wc --lines processes.txt << selected.txt 
+  201  wc --lines processes.txt >> selected.txt
+  202  pwd
   203  git status
   204  ls
   205  cd git-majonez/
@@ -78,3 +87,14 @@
   280  history|tail -80>history.txt
   281  cat history.txt 
   282  history|tail -80>history.txt
+  283  cat history.txt 
+  284  git add history.txt 
+  285  git status
+  286  git commit -m"History added"
+  287  git push
+  288  git push --set-upstream origin master
+  289  git status
+  290  mkdir git-majonez
+  291  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
+  292  git push -u origin main
+  293  history|tail -100>history.txt
