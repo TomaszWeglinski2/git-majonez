@@ -1,15 +1,3 @@
-  198  wc --lines processes.txt << selected.txt 
-  199  wc --lines processes.txt << selected.txt 
-  200  wc --lines processes.txt << selected.txt 
-  201  wc --lines processes.txt >> selected.txt
-  202  pwd
-  203  git status
-  204  ls
-  205  cd git-majonez/
-  206  ls
-  207  git status
-  208  git add .
-  209  git status
   210  git rm main
   211  git status
   212  rm main
@@ -178,3 +166,15 @@
   375  git remote add origin https://github.com/TomaszWeglinski2/git-majonez.git
   376  git remote add origin https://github.com/TomaszWeglinski2/git-checker.git
   377  history|tail -180>history.txt
+  378  git add history.txt 
+  379  git commit -m"History added"
+  380  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  381  git add main.cpp 
+  382  git commit main.cpp 
+  383  git status
+  384  git commit -m"Main"
+  385  git status
+  386  git push https://github.com/TomaszWeglinski2/git-majonez.git
+  387  git remote push origin https://github.com/TomaszWeglinski2/git-majonez.git
+  388  git push origin master
+  389  history|tail -180>history.txt
